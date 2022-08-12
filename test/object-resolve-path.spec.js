@@ -1,6 +1,8 @@
-var expect = require('chai').expect;
+// var expect = require('chai').expect;
+import { expect } from 'chai';
 
-var resolve = require('../object-resolve-path');
+// var resolve = require('../object-resolve-path');
+import resolve from '../object-resolve-path.mjs';
 
 var testObj = {
   a: 'b',

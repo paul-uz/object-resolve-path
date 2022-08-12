@@ -363,4 +363,4 @@ var invalidPath = new Path('', constructorIsPrivate)
 invalidPath.valid = false
 invalidPath.getValueFrom = invalidPath.setValueFrom = function () {}
 
-module.exports = Path
+export default Path
