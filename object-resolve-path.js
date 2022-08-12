@@ -1,10 +1,5 @@
 import Path from './path.js';
-/**
- *
- * @param {Object} o
- * @param {String} path
- * @returns {*}
- */
+
 export default resolvePath(o, path) {
   if (typeof path !== 'string') {
     throw new TypeError('path must be a string')
