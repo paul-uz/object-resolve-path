@@ -1,4 +1,4 @@
-import Path from './path.mjs';
+import Path from './path.js';
 /**
  *
  * @param {Object} o

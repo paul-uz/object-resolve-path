@@ -2,7 +2,7 @@
 import { expect } from 'chai';
 
 // var resolve = require('../object-resolve-path');
-import resolve from '../object-resolve-path.mjs';
+import resolve from '../object-resolve-path.js';
 
 var testObj = {
   a: 'b',
